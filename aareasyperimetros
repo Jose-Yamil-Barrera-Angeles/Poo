@@ -1,0 +1,93 @@
+def acir (r):
+    result=3.1415*r
+    result=result/2
+    return result
+
+def pcir(r):
+    result=3.1415*r
+    return result
+
+print ("Area del circulo")
+r=5
+r=acir (r)
+print (r)
+
+print ("Perimetro del circulo")
+d=10
+c=pcir(d)
+print (c)
+
+print ("Cuadrado")
+
+def acua (a):
+    result=a*a
+    return result
+
+def pcua (p):
+    result=4*p
+    return result
+
+print ("Area del cuadrado")
+
+a=10
+r= acua (a)
+print (r)
+
+print ("Perimetro del cuadrado")
+
+
+#a=float (input("Ingrese lado del cuadrado:"))
+a=10
+r= pcua (a)
+print (r) 
+
+
+print ("Tringulo")
+
+def atri (ba,al):
+    result=ba*al
+    return result
+
+def ptri(l):
+    result=l*3
+    return result
+
+print ("Area de un tringulo")
+
+ba=10
+al=15
+r= atri(ba,al)
+print (r)
+
+
+print ("Perimetro de Cuadrado")
+l=10
+r=ptri(l)
+print (r)
+
+
+print ("Trapecio")
+
+def atra (ba,ba1,al):
+    result=ba+ba1
+    result=result*al
+    result=result/2
+    return result
+
+def ptra (a,b,c):
+    result=a+b+c+c
+    return result
+
+print ("Area del trapecio")
+ba=5
+ba1=10
+al=15
+r=atra(ba,ba1,al)
+print (r)
+
+print ("Perimetro del trapecio")
+ba=5
+ba1=10
+la=15
+r= ptra (ba,ba1,la)
+print (r)
